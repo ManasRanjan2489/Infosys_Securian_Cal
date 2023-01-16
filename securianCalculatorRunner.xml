@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SignUpSuite">
+
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    </listeners>
+
+    <test name="Calculate">
+        <classes>
+            <class name="Modules.SocialSecurityBenefitsToggle"/>
+            <class name="Modules.SubmitFormWithAllField"/>
+            <class name="Modules.SubmitFormWithAllRequiredField"/>
+            <class name="Modules.SubmitFormWithDefaultCalculatorValues"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

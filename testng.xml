@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/manas/IdeaProjects/securian-cal">
+        <classes>
+            <class name="Modules.SocialSecurityBenefitsToggle">
+                <methods>
+                    <include name="submitFormWithAllReqField"/>
+                </methods>
+            </class>
+            <class name="Modules.SubmitFormWithAllField">
+                <methods>
+                    <include name="submitFormWithAllField"/>
+                </methods>
+            </class>
+            <class name="Modules.SubmitFormWithAllRequiredField">
+                <methods>
+                    <include name="submitFormWithAllReqField"/>
+                </methods>
+            </class>
+            <class name="Modules.SubmitFormWithDefaultCalculatorValues">
+                <methods>
+                    <include name="submitFormWithACalValue"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

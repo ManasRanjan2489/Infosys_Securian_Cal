@@ -1,0 +1,10 @@
+
+browser = chrome
+Current_Age = 40
+Retirement_Age = 68
+Current_annual_income = 100000
+Spouse_annual_income =  75000
+Current_retirement_savings = 500000
+Current_retirement_contribution = 10
+Annual_retirement_contribution_increase = 1
+Social_Security_Override = 4000
